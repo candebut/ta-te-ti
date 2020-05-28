@@ -171,13 +171,13 @@ class App extends React.Component {
             <a href="./?AI" onClick={this.handleModeChange} id="ai">
               Jugar contra la PC
             </a>{" "}
-            ||
+
             <a href="./?2P" onClick={this.handleModeChange} id="twop">
               {" "}
               2 jugadores
             </a>{" "}
-            ||
-            <a href="#" onClick={this.handleReset}>
+
+            <a href="#" onClick={this.handleReset} id="starover">
               {" "}
               Empezar de nuevo
             </a>
